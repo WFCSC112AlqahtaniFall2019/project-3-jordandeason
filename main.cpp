@@ -1,3 +1,7 @@
+/*
+ Jordan Deason Project 3
+ */
+
 #include <iostream>
 #include <vector>
 #include <ctime>
@@ -21,7 +25,6 @@ int main(int argc, char *argv[]) {
 
     // get input: first is random seed, second is vector length
     int seed, length;
-    //intput from terminal
     seed = atoi(argv[1]);
     length = atoi(argv[2]);
     srand(seed);
