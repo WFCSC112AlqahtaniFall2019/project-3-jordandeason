@@ -153,8 +153,8 @@ void swap(int *a, int *b) {
 void bubbleSort(int *a, int n) {
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
-            if (a[j] > a[j + 1]) {//if one value is greater than the one following it...
-                swap(a[j], a[j + 1]);//swap them
+            if (a[j] > a[j + 1]) {
+                swap(a[j], a[j + 1]);
             }
         }
     }
